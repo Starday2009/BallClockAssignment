@@ -37,16 +37,15 @@ if you enter m:
 
 `We will count : minutes`
 
-`Please, enter minutes count`
+`Please, enter minutes count and balls(minutes value between 27 and 127)`
 
-required to enter minutes-> 5
-
-`Please, enter balls count` -> 27
+required to enter minutes and balls with space-> 5 27
 
 Output:
 
-`Ok, we will count value for 5 minutes and 27 balls
-{"Minutes":[],"FiveMin":[1],"Hours":[],"Main":[2,6,3,9,8,4,14,16,18,20,10,7,5,23,15,27,17,26,19,25,21,22,11,24,12,13]}`
+`Ok, we will count value for 5 minutes and 27 balls..
+{"Minutes":[],"FiveMin":[5],"Hours":[],"Main":[6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,1,2,3,4]}
+Completed in 4 milliseconds (0.004 seconds)`
 
 if you enter d:
 
