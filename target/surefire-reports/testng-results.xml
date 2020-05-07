@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-05-07T22:44:21Z" name="Acceptance test suite" finished-at="2020-05-07T22:44:21Z" duration-ms="362">
+    <groups>
+    </groups>
+    <test started-at="2020-05-07T22:44:21Z" name="Test all cases foe Ball Clock" finished-at="2020-05-07T22:44:21Z" duration-ms="75">
+      <class name="BallClockTest">
+        <test-method is-config="true" signature="setUpStreams()[pri:0, instance:BallClockTest@258e2e41]" started-at="2020-05-07T22:44:21Z" name="setUpStreams" finished-at="2020-05-07T22:44:21Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpStreams -->
+        <test-method signature="input_30Balls_expected_13Days_happyPath()[pri:0, instance:BallClockTest@258e2e41]" started-at="2020-05-07T22:44:21Z" name="input_30Balls_expected_13Days_happyPath" finished-at="2020-05-07T22:44:21Z" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- input_30Balls_expected_13Days_happyPath -->
+        <test-method signature="input_65Balls_expected_70Days_happyPath()[pri:0, instance:BallClockTest@258e2e41]" started-at="2020-05-07T22:44:21Z" name="input_65Balls_expected_70Days_happyPath" finished-at="2020-05-07T22:44:21Z" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- input_65Balls_expected_70Days_happyPath -->
+        <test-method signature="test_rail_after_1m_with_39b_happyPath()[pri:0, instance:BallClockTest@258e2e41]" started-at="2020-05-07T22:44:21Z" name="test_rail_after_1m_with_39b_happyPath" finished-at="2020-05-07T22:44:21Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_rail_after_1m_with_39b_happyPath -->
+        <test-method signature="test_rail_after_28m_with_28b_happyPath()[pri:0, instance:BallClockTest@258e2e41]" started-at="2020-05-07T22:44:21Z" name="test_rail_after_28m_with_28b_happyPath" finished-at="2020-05-07T22:44:21Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_rail_after_28m_with_28b_happyPath -->
+        <test-method signature="test_rail_after_65m_with_127b_happyPath()[pri:0, instance:BallClockTest@258e2e41]" started-at="2020-05-07T22:44:21Z" name="test_rail_after_65m_with_127b_happyPath" finished-at="2020-05-07T22:44:21Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_rail_after_65m_with_127b_happyPath -->
+      </class> <!-- BallClockTest -->
+    </test> <!-- Test all cases foe Ball Clock -->
+    <test started-at="2020-05-07T22:44:21Z" name="Test all cases for System Out value" finished-at="2020-05-07T22:44:21Z" duration-ms="42">
+      <class name="SystemOutTest">
+        <test-method signature="enter_28balls_for_days_happyPath()[pri:0, instance:SystemOutTest@197d671]" started-at="2020-05-07T22:44:21Z" name="enter_28balls_for_days_happyPath" finished-at="2020-05-07T22:44:21Z" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_28balls_for_days_happyPath -->
+        <test-method signature="enter_28min_and_28balls_for_min_happyPath()[pri:0, instance:SystemOutTest@197d671]" started-at="2020-05-07T22:44:21Z" name="enter_28min_and_28balls_for_min_happyPath" finished-at="2020-05-07T22:44:21Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_28min_and_28balls_for_min_happyPath -->
+        <test-method signature="test_enter_28balls_for_dayCounter_happyPath()[pri:0, instance:SystemOutTest@197d671]" started-at="2020-05-07T22:44:21Z" name="test_enter_28balls_for_dayCounter_happyPath" finished-at="2020-05-07T22:44:21Z" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_enter_28balls_for_dayCounter_happyPath -->
+        <test-method signature="test_enter_wrong_128balls_for_dayCounter_sadPath()[pri:0, instance:SystemOutTest@197d671]" started-at="2020-05-07T22:44:21Z" name="test_enter_wrong_128balls_for_dayCounter_sadPath" finished-at="2020-05-07T22:44:21Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_enter_wrong_128balls_for_dayCounter_sadPath -->
+        <test-method signature="test_enter_wrong_26balls_for_dayCounter_sadPath()[pri:0, instance:SystemOutTest@197d671]" started-at="2020-05-07T22:44:21Z" name="test_enter_wrong_26balls_for_dayCounter_sadPath" finished-at="2020-05-07T22:44:21Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_enter_wrong_26balls_for_dayCounter_sadPath -->
+        <test-method signature="test_minutes_method_21min_wrong_128balls_sadPath()[pri:0, instance:SystemOutTest@197d671]" started-at="2020-05-07T22:44:21Z" name="test_minutes_method_21min_wrong_128balls_sadPath" finished-at="2020-05-07T22:44:21Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_minutes_method_21min_wrong_128balls_sadPath -->
+        <test-method signature="test_enter_wrong_value_in_select_month_or_days_sadPath()[pri:0, instance:SystemOutTest@197d671]" started-at="2020-05-07T22:44:21Z" name="test_enter_wrong_value_in_select_month_or_days_sadPath" finished-at="2020-05-07T22:44:21Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_enter_wrong_value_in_select_month_or_days_sadPath -->
+        <test-method signature="test_minutes_method_21min_wrong_27balls_sadPath()[pri:0, instance:SystemOutTest@197d671]" started-at="2020-05-07T22:44:21Z" name="test_minutes_method_21min_wrong_27balls_sadPath" finished-at="2020-05-07T22:44:21Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_minutes_method_21min_wrong_27balls_sadPath -->
+        <test-method signature="test_minutes_method_28min_28balls_happyPath()[pri:0, instance:SystemOutTest@197d671]" started-at="2020-05-07T22:44:21Z" name="test_minutes_method_28min_28balls_happyPath" finished-at="2020-05-07T22:44:21Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_minutes_method_28min_28balls_happyPath -->
+      </class> <!-- SystemOutTest -->
+    </test> <!-- Test all cases for System Out value -->
+  </suite> <!-- Acceptance test suite -->
+</testng-results>

@@ -56,3 +56,17 @@ if you enter d:
 `27 balls cycle after 13 days.`
 
 `Completed in 5 milliseconds (0.005 seconds)`
+
+*Test* 
+
+For check code for code you can run maven command
+
+`mvn clean test`
+
+output will be: 
+
+`Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.713 s - in TestSuite`
+
+OR for more detailed you can run `acceptanceSuite.xml` file form `src/test/java/resources/` and see list with all passed/failed tests.  
+
+OR run one of test from file `resources/BallClockTest` and `resources/SystemOutTest`.

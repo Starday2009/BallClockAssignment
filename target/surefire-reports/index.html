@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Acceptance_test_suite" class="navigator-link">
+              <span class="suite-name border-passed">Acceptance test suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Acceptance_test_suite" class="navigator-link ">
+                    <span>acceptanceSuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Acceptance_test_suite" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Acceptance_test_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Acceptance_test_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Acceptance_test_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Acceptance_test_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Acceptance_test_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">14 methods,   14 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Acceptance_test_suite" class="hide-methods passed suite-Acceptance_test_suite"> (hide)</a> <!-- hide-methods passed suite-Acceptance_test_suite -->
+                      <a href="#" panel-name="suite-Acceptance_test_suite" class="show-methods passed suite-Acceptance_test_suite"> (show)</a> <!-- show-methods passed suite-Acceptance_test_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Acceptance_test_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Acceptance_test_suite" title="SystemOutTest" class="method navigator-link" hash-for-method="enter_28balls_for_days_happyPath">enter_28balls_for_days_happyPath</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Acceptance_test_suite" title="SystemOutTest" class="method navigator-link" hash-for-method="enter_28min_and_28balls_for_min_happyPath">enter_28min_and_28balls_for_min_happyPath</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Acceptance_test_suite" title="BallClockTest" class="method navigator-link" hash-for-method="input_30Balls_expected_13Days_happyPath">input_30Balls_expected_13Days_happyPath</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Acceptance_test_suite" title="BallClockTest" class="method navigator-link" hash-for-method="input_65Balls_expected_70Days_happyPath">input_65Balls_expected_70Days_happyPath</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Acceptance_test_suite" title="SystemOutTest" class="method navigator-link" hash-for-method="test_enter_28balls_for_dayCounter_happyPath">test_enter_28balls_for_dayCounter_happyPath</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Acceptance_test_suite" title="SystemOutTest" class="method navigator-link" hash-for-method="test_enter_wrong_128balls_for_dayCounter_sadPath">test_enter_wrong_128balls_for_dayCounter_sadPath</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Acceptance_test_suite" title="SystemOutTest" class="method navigator-link" hash-for-method="test_enter_wrong_26balls_for_dayCounter_sadPath">test_enter_wrong_26balls_for_dayCounter_sadPath</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Acceptance_test_suite" title="SystemOutTest" class="method navigator-link" hash-for-method="test_enter_wrong_value_in_select_month_or_days_sadPath">test_enter_wrong_value_in_select_month_or_days_sadPath</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Acceptance_test_suite" title="SystemOutTest" class="method navigator-link" hash-for-method="test_minutes_method_21min_wrong_128balls_sadPath">test_minutes_method_21min_wrong_128balls_sadPath</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Acceptance_test_suite" title="SystemOutTest" class="method navigator-link" hash-for-method="test_minutes_method_21min_wrong_27balls_sadPath">test_minutes_method_21min_wrong_27balls_sadPath</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Acceptance_test_suite" title="SystemOutTest" class="method navigator-link" hash-for-method="test_minutes_method_28min_28balls_happyPath">test_minutes_method_28min_28balls_happyPath</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Acceptance_test_suite" title="BallClockTest" class="method navigator-link" hash-for-method="test_rail_after_1m_with_39b_happyPath">test_rail_after_1m_with_39b_happyPath</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Acceptance_test_suite" title="BallClockTest" class="method navigator-link" hash-for-method="test_rail_after_28m_with_28b_happyPath">test_rail_after_28m_with_28b_happyPath</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Acceptance_test_suite" title="BallClockTest" class="method navigator-link" hash-for-method="test_rail_after_65m_with_127b_happyPath">test_rail_after_65m_with_127b_happyPath</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Acceptance_test_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Acceptance_test_suite" class="panel Acceptance_test_suite">
+          <div class="suite-Acceptance_test_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">BallClockTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="input_30Balls_expected_13Days_happyPath">
+                  </a> <!-- input_30Balls_expected_13Days_happyPath -->
+                  <span class="method-name">input_30Balls_expected_13Days_happyPath</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="input_65Balls_expected_70Days_happyPath">
+                  </a> <!-- input_65Balls_expected_70Days_happyPath -->
+                  <span class="method-name">input_65Balls_expected_70Days_happyPath</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_rail_after_1m_with_39b_happyPath">
+                  </a> <!-- test_rail_after_1m_with_39b_happyPath -->
+                  <span class="method-name">test_rail_after_1m_with_39b_happyPath</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_rail_after_28m_with_28b_happyPath">
+                  </a> <!-- test_rail_after_28m_with_28b_happyPath -->
+                  <span class="method-name">test_rail_after_28m_with_28b_happyPath</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_rail_after_65m_with_127b_happyPath">
+                  </a> <!-- test_rail_after_65m_with_127b_happyPath -->
+                  <span class="method-name">test_rail_after_65m_with_127b_happyPath</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Acceptance_test_suite-class-passed -->
+          <div class="suite-Acceptance_test_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">SystemOutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="enter_28balls_for_days_happyPath">
+                  </a> <!-- enter_28balls_for_days_happyPath -->
+                  <span class="method-name">enter_28balls_for_days_happyPath</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enter_28min_and_28balls_for_min_happyPath">
+                  </a> <!-- enter_28min_and_28balls_for_min_happyPath -->
+                  <span class="method-name">enter_28min_and_28balls_for_min_happyPath</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_enter_28balls_for_dayCounter_happyPath">
+                  </a> <!-- test_enter_28balls_for_dayCounter_happyPath -->
+                  <span class="method-name">test_enter_28balls_for_dayCounter_happyPath</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_enter_wrong_128balls_for_dayCounter_sadPath">
+                  </a> <!-- test_enter_wrong_128balls_for_dayCounter_sadPath -->
+                  <span class="method-name">test_enter_wrong_128balls_for_dayCounter_sadPath</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_enter_wrong_26balls_for_dayCounter_sadPath">
+                  </a> <!-- test_enter_wrong_26balls_for_dayCounter_sadPath -->
+                  <span class="method-name">test_enter_wrong_26balls_for_dayCounter_sadPath</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_enter_wrong_value_in_select_month_or_days_sadPath">
+                  </a> <!-- test_enter_wrong_value_in_select_month_or_days_sadPath -->
+                  <span class="method-name">test_enter_wrong_value_in_select_month_or_days_sadPath</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_minutes_method_21min_wrong_128balls_sadPath">
+                  </a> <!-- test_minutes_method_21min_wrong_128balls_sadPath -->
+                  <span class="method-name">test_minutes_method_21min_wrong_128balls_sadPath</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_minutes_method_21min_wrong_27balls_sadPath">
+                  </a> <!-- test_minutes_method_21min_wrong_27balls_sadPath -->
+                  <span class="method-name">test_minutes_method_21min_wrong_27balls_sadPath</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_minutes_method_28min_28balls_happyPath">
+                  </a> <!-- test_minutes_method_28min_28balls_happyPath -->
+                  <span class="method-name">test_minutes_method_28min_28balls_happyPath</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Acceptance_test_suite-class-passed -->
+        </div> <!-- panel Acceptance_test_suite -->
+        <div panel-name="test-xml-Acceptance_test_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/ogorbachenko/projects/BallclockTestTask/src/test/java/resources/acceptanceSuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Acceptance test suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test all cases foe Ball Clock&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;BallClockTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test all cases foe Ball Clock --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test all cases for System Out value&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;SystemOutTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test all cases for System Out value --&gt;
+&lt;/suite&gt; &lt;!-- Acceptance test suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Acceptance_test_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Acceptance test suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test all cases foe Ball Clock (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test all cases for System Out value (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Acceptance_test_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Acceptance test suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Acceptance_test_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Acceptance test suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Acceptance_test_suite');
+function tableData_Acceptance_test_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(14);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'input_30Balls_expected_13Days_happyPath')
+data.setCell(0, 2, 'BallClockTest')
+data.setCell(0, 3, 18);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'enter_28balls_for_days_happyPath')
+data.setCell(1, 2, 'SystemOutTest')
+data.setCell(1, 3, 18);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'input_65Balls_expected_70Days_happyPath')
+data.setCell(2, 2, 'BallClockTest')
+data.setCell(2, 3, 13);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'test_enter_28balls_for_dayCounter_happyPath')
+data.setCell(3, 2, 'SystemOutTest')
+data.setCell(3, 3, 10);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'test_rail_after_1m_with_39b_happyPath')
+data.setCell(4, 2, 'BallClockTest')
+data.setCell(4, 3, 8);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'test_rail_after_65m_with_127b_happyPath')
+data.setCell(5, 2, 'BallClockTest')
+data.setCell(5, 3, 4);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'enter_28min_and_28balls_for_min_happyPath')
+data.setCell(6, 2, 'SystemOutTest')
+data.setCell(6, 3, 3);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'test_rail_after_28m_with_28b_happyPath')
+data.setCell(7, 2, 'BallClockTest')
+data.setCell(7, 3, 2);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'test_minutes_method_21min_wrong_128balls_sadPath')
+data.setCell(8, 2, 'SystemOutTest')
+data.setCell(8, 3, 2);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'test_minutes_method_28min_28balls_happyPath')
+data.setCell(9, 2, 'SystemOutTest')
+data.setCell(9, 3, 2);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'test_minutes_method_21min_wrong_27balls_sadPath')
+data.setCell(10, 2, 'SystemOutTest')
+data.setCell(10, 3, 1);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'test_enter_wrong_128balls_for_dayCounter_sadPath')
+data.setCell(11, 2, 'SystemOutTest')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'test_enter_wrong_26balls_for_dayCounter_sadPath')
+data.setCell(12, 2, 'SystemOutTest')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'test_enter_wrong_value_in_select_month_or_days_sadPath')
+data.setCell(13, 2, 'SystemOutTest')
+data.setCell(13, 3, 0);
+window.suiteTableData['Acceptance_test_suite']= { tableData: data, tableDiv: 'times-div-Acceptance_test_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 81 ms</span>
+              <div id="times-div-Acceptance_test_suite">
+              </div> <!-- times-div-Acceptance_test_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Acceptance_test_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Acceptance test suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Acceptance_test_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Acceptance_test_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">BallClockTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUpStreams</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">input_30Balls_expected_13Days_happyPath</span>
+                <span class="method-start">25 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">input_65Balls_expected_70Days_happyPath</span>
+                <span class="method-start">44 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_rail_after_1m_with_39b_happyPath</span>
+                <span class="method-start">58 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_rail_after_28m_with_28b_happyPath</span>
+                <span class="method-start">67 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_rail_after_65m_with_127b_happyPath</span>
+                <span class="method-start">69 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SystemOutTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">enter_28balls_for_days_happyPath</span>
+                <span class="method-start">320 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enter_28min_and_28balls_for_min_happyPath</span>
+                <span class="method-start">338 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_enter_28balls_for_dayCounter_happyPath</span>
+                <span class="method-start">341 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_enter_wrong_128balls_for_dayCounter_sadPath</span>
+                <span class="method-start">352 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_enter_wrong_26balls_for_dayCounter_sadPath</span>
+                <span class="method-start">353 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_enter_wrong_value_in_select_month_or_days_sadPath</span>
+                <span class="method-start">354 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_minutes_method_21min_wrong_128balls_sadPath</span>
+                <span class="method-start">354 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_minutes_method_21min_wrong_27balls_sadPath</span>
+                <span class="method-start">356 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_minutes_method_28min_28balls_happyPath</span>
+                <span class="method-start">358 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
